@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Form Pendaftaran Online</h1>
+    <hr>
+    <table>
+        <form action="" method="post">
+            <tr>
+                <td><label for="">Nama</label></td>
+                <td>
+                    <p>:</p>
+                </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="">Alamat</label></td>
+                <td>
+                    <p>:</p>
+                </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="">Agama</label></td>
+                <td>
+                    <p>:</p>
+                </td>
+                <td>
+                    <select name="agama" id="agama">
+                        <option value="islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="katolik">Katolik</option>
+                        <option value="hindu">Budha</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Jenis Kelamin</label></td>
+                <td>
+                    <p>:</p>
+                </td>
+                <td>
+                    <input type="radio" name="jk" id="jk" value="L" checked>Laki-laki
+                    <input type="radio" name="jk" id="jk" value="P">Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Password</label></td>
+                <td>
+                    <p>:</p>
+                </td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td colspan="3">Hobi:</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="checkbox" name="hobi[]" id="">Sepakbola
+                    <input type="checkbox" name="hobi[]" id="">Bulutangkis
+                    <input type="checkbox" name="hobi[]" id="">Komputer
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="checkbox" name="hobi[]" id="">Game
+                    <input type="checkbox" name="hobi[]" id="">Menonton Film
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">Komentar:</td>
+            </tr>
+            <tr>
+                <td colspan="3"><textarea name="komentar" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="submit" value="Kirim">
+                    <input type="button" value="Batal">
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
